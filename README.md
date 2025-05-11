@@ -56,21 +56,3 @@ shop_app/
    flutter run
    ```
 
----
-
-## Notes
-
-- Products are stored in-memory via `lib/models/cart.dart`. No external database.
-- To add new products, edit the `_products` list in `Cart._internal()`.
-- All navigation and state live in Dart code; no platform-specific native changes.
-
----
-
-## Author
-
-Dr. Sabah Mohammed  
-COMP5450 Mobile Programming
-
----
-
-*Licensed under MIT*
